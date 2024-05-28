@@ -1,0 +1,155 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/*navbar stars hare*/
+
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    text-align: right;
+}
+.nav-manu{
+
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-manu a{
+    padding: 5px 20px;
+    margin: 20px 0px;
+    background-color: transparent;
+}
+/*navbar ends hare*/
+
+/*profil stars hare*/
+.profile .top-icon{
+    width: 120px;
+    right: 100px;
+    top: 0;
+    transition:width 2s  transform 3s;
+}
+.profile .top-icon:hover{
+    transform: rotate(360deg);
+    width: 150px;
+}
+.profil-desc h1{
+    font-family: "Sedan SC", serif;
+    font-size: 3rem;
+    margin: 50px;
+    color:rgb(62, 69, 165)
+    text-align: center;
+
+}
+.profil-desc p{
+    color: rgb(20, 154, 207);
+    text-align: center;
+    width: 90%;
+    margin: 0px auto 20px auto;
+    transition: transform 2s;
+}
+.profil-desc p:hover{
+    transform: scale(1.25);
+}
+.bottom-icon{
+    width:120px;
+    left: 40px;
+    transition: transform 3s;
+}
+.bottom-icon:hover{
+    transform: rotate(360deg);
+    width: 150px;
+}
+
+
+/*profil end hare*/
+
+/*about-me stars hare*/
+.nayan2-img{
+    width: 42%;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+.about-me .nayan2-img{
+    width: 42%;
+    transition: width 3s transform 5s ;
+}
+.about-me .nayan2-img:hover{
+    width: 50%;
+    transform: rotate(10deg);
+}
+.about-me-discription P{
+    text-align: left;
+    color: rgb(172, 182, 192);
+}    
+/*about-me end hare*/
+/*card stars hare*/
+
+.propotional-experience{
+   
+   width: 32%;
+
+}
+.all-card{
+    display: flex;
+    flex-direction: row;
+}
+/*card end hare*/
+.footer-manu{
+    padding: 1% 0%;
+    background-color: #39a4ac;
+    color: white;
+    float: left;
+    width: 100%;
+}
+.achivment{
+    padding-right: 30px;
+    margin: 0px;
+}
+.contact button{
+    width: 150px;
+    
+}
+.social-media-link{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 100px;
+    transform: translate(-50% ,-50%);
+}
+/*footer stard hare*/
+
+/*original footer stard hare*/
+.original-footer{
+    display: flex;
+    flex-direction: row;
+}
+.footer-manu1 a {
+    display: inline;
+    margin: 15px 10px;
+    font-size: 1.3rem; 
+}
+.footer-manu1{
+}
+.footer-discription{
+    font-size: 1.3rem;
+}
+
+
+
+/*original footer end hare*/

@@ -1,0 +1,424 @@
+*{
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+
+}
+body{
+    margin:0px;
+
+}
+p{
+    font-size:1.2rem ;
+    text-align: justify;
+}
+h2{
+    font-size: 2.0rem;
+    text-align: center;
+    color: rgb(154, 135, 197);
+}
+/*navbar stars hare*/
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.dotted-hr{
+    border: dotted 7px white;
+    border-bottom: none;
+    width: 190px;
+    margin: 10px auto;
+}
+.horigental{
+    color: rgb(226, 127, 14);
+}
+.img1{
+    width: 130px;
+    height: auto;
+
+}
+[class*=col-]
+{
+    float: left;
+    padding: 10px;
+}
+    /* For mobile phones: */
+[class*="col-"] {
+     width: 100%;
+}
+.nav-bar{
+    background-color: #0c6168;
+    padding: 1% 7%;
+    text-align: center;
+}
+.nav-bar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    
+}
+.nav-manu{
+    display:flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.nav-manu a{
+    background-color: #40868b;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+
+}
+.nav-manu a:hover{
+    background-color: gray;
+
+}
+.nav-bar::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/*navbar end hare*/
+
+/*profil stars hare*/
+.profile{
+    padding: 130PX 10PX;
+    position: relative;
+    text-align: center;
+    background-color: rgb(209, 224, 226);
+}
+.profile .top-icon{
+    width: 120px;
+    position: absolute;
+    right: 60px;
+    top: 0px;
+    transition: transform 3s;
+}
+.profile .top-icon:hover{
+    transform: rotate(360deg);
+}
+.profil-desc h1{
+    font-family: "Sedan SC", serif;
+    font-size: 3rem;
+    margin: 50px;
+    color:rgb(62, 69, 165)
+
+}
+.profil-desc p{
+    color: rgb(20, 154, 207);
+    text-align: center;
+    width: 90%;
+    margin: 0px auto 20px auto;
+    transition: transform 2s;
+}
+.profil-desc p:hover{
+    transform: scale(1.25);
+}
+.profile .bottom-icon{
+    position: absolute;
+    width:120px;
+    left: 40px;
+    transition: transform 3s;
+}
+.profile .bottom-icon:hover{
+    transform: rotate(360deg);
+}
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*profil end hare*/
+
+/*about-me stars hare*/
+.about-me{
+    background-color: #39a4ac;
+    text-align: center;
+    padding: 1% 7%;
+    font-family: "Montserrat", sans-serif;
+    background-color: #0c6168;
+    float: left;
+
+
+}
+
+.nayan2-img{
+    width: 42%;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.about-me p{
+    text-align: center;
+}
+.about-me a{
+    color: rgb(193, 127, 199);
+}
+.about-me::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*about-me end hare*/
+
+/*card stars hare*/
+.all-card{
+    padding: 5px;
+    margin: 0px auto;
+    width: 100%;
+}
+/*propotional experience stars hare*/
+.propotional-experience{
+    background-color: #a39e9e;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.7s;
+    height: 620px;
+    width: 99%;
+
+}
+h2{
+    color: rgb(17, 17, 17);
+    text-decoration: underline;
+}
+.propotional-logo{
+    text-align: center;
+}
+.propotional-logo1{
+    width: 100px;
+    height: auto;
+    text-align: right;
+    transition: transform 2s width 1s;
+
+}
+.propotional-logo1:hover{
+    width: 120px;
+    transform: rotate(10deg);
+
+}
+.propotional-experience:hover{
+   box-shadow: 0px 4px 8px 5px black;
+
+}
+
+.propotional-experience::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+/*propotional experience end hare*/
+
+
+/*propotional experience stars hare*/
+
+
+/*propotional experience end hare*/
+.educational{
+    background-color: #a39e9e;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s;
+    height: 620px;
+    width: 99%;
+}
+.educational:hover{
+    box-shadow: 0px 4px 8px 5px black;
+}
+/*propotional experience stars hare*/
+.skill-manu{
+    padding: 20px;
+}
+.skill-manu li{
+    list-style-type: none;
+    fo
+}
+.skill-manu li::before{
+    position: relative;
+}
+/*propotional experience end hare*/
+/*skill start hare*/
+.skill-manu{
+    padding: 20px;
+}
+.skill-manu li{
+    list-style-type: none;
+    font-weight: bolder;
+    position: relative;
+    text-transform: uppercase;
+    margin: 30px 10px;
+}
+.skill-manu li::before{
+    content: '';
+    top: calc(100% + 5px);
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 1000px;
+}
+.skill-manu li::after{
+    content: '';
+    left: 0px;
+    top: calc(100% + 5px);
+    position: absolute;
+    height: 10px;
+    width: 0%;
+    background-color: rgb(179, 102, 102);
+    border-radius: 1000px;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.skill-manu li.html::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 70%;
+    }
+}
+.skill-manu li.css::after{
+    animation-name: css;
+}
+@keyframes css{
+    to{
+        width: 50%;
+    }
+}
+.skill-manu li.c::after{
+    animation-name:c;
+}
+@keyframes c{
+    to{
+        width: 55%;
+    }
+}
+
+.skill-manu li.c-plus::after{
+    animation-name: c-plus;
+}
+@keyframes c-plus{
+    to{
+        width: 5%;
+    }
+}
+
+.skill-manu li.c-sharp::after{
+    animation-name: c-sharp;
+}
+@keyframes c-sharp{
+    to{
+        width: 4%;
+    }
+}
+
+.skill-manu li.java::after{
+    animation-name: java;
+}
+@keyframes java{
+    to{
+        width: 7%;
+    }
+}
+
+/*skill end hare*/
+.all-card{
+   content: '';
+   display: table;
+   clear: both;
+}
+/*card end hare*/
+/*footer stard hare*/
+.footer-manu{
+    padding: 1% 5%;
+    background-color: #39a4ac;
+    color: white;
+    width: 100%;
+}
+.contact{
+    text-align: center;
+}
+.contact input,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact button{
+    border: none;
+    border-radius: 10px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    margin: 10px;
+    width: 100px;
+}
+.social-media-link{
+    text-align: center;
+}
+.social-media-link .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+.social-media-link .btn:hover{
+    
+    background-color: gray(221, 187, 124);
+}
+
+.footer-manu::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*footer stard hare*/
+
+/*original footer stard hare*/
+
+.original-footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.footer-manu1 a {
+    display: block;
+    margin: 15px 0px;
+    font-size: 1rem;
+    background-color: transparent;
+}
+.footer-manu1 a:hover {
+    color: gray;
+}
+.footer-discription{
+    font-size: 1rem;
+}
+
+
+.original-footer::after {
+   content: '';
+   display:table;
+   clear: both;
+
+}
+
+
+/*original footer end hare*/
